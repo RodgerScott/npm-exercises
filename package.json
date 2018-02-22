@@ -1,0 +1,29 @@
+{
+  "name": "npm-exercises",
+  "version": "1.0.0",
+  "description": "Practie exercise",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "build:watch": "webpack --watch",
+    "build:production": "webpack -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RodgerScott/npm-exercises.git"
+  },
+  "author": "Rodger Scott",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RodgerScott/npm-exercises/issues"
+  },
+  "homepage": "https://github.com/RodgerScott/npm-exercises#readme",
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "jquery": "^3.3.1",
+    "webpack": "^3.11.0"
+  }
+}
