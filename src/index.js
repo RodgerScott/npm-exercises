@@ -1,5 +1,5 @@
 const $ = require('jquery');
 
-const sayHello = () => $('h1').html("Hello6");
+const sayHello = () => $('h1').html("Hello");
 
 sayHello();
